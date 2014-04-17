@@ -4,7 +4,7 @@ Dockerfile that generates an image for people who use [Node.js](http://nodejs.or
 
 ## Build image
 
-    $ docker build -t=ruby_nodejs
+    $ docker build -t=ruby-nodejs
 
 ## What's included
 
@@ -12,3 +12,7 @@ Dockerfile that generates an image for people who use [Node.js](http://nodejs.or
 * ruby 2.0.0 - Thanks to [docker-ruby](https://github.com/Painted-Fox/docker-ruby)
 * [Ruby bundler](https://github.com/bundler/bundler/)
 * Node.js - Thanks to [dockerfile/nodejs](https://github.com/dockerfile/nodejs)
+
+## Pull image
+
+    $ docker pull shawnzhu/ruby-nodejs
