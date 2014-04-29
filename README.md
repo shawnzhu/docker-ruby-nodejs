@@ -9,7 +9,7 @@ Dockerfile that generates an image for people who use [Node.js](http://nodejs.or
 ## What's included
 
 * Ubuntu 12.04
-* ruby 2.0.0 - Thanks to [docker-ruby](https://github.com/Painted-Fox/docker-ruby)
+* ruby 2.1.1
 * [Ruby bundler](https://github.com/bundler/bundler/)
 * Node.js - Thanks to [dockerfile/nodejs](https://github.com/dockerfile/nodejs)
 
