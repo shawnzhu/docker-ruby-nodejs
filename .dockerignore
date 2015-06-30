@@ -2,3 +2,4 @@ rspec/
 .git
 Gemfile
 .rspec
+circle.yml
