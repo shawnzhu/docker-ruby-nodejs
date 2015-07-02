@@ -4,5 +4,7 @@ machine:
 dependencies:
   override:
     - docker info
-    - docker build -t shawnzhu/ruby-nodejs .
-    - bundle install
+    - docker build -t shawnzhu/ruby-nodejs:0.12.5 .
+test:
+  override:
+    - node_version=$(docker run --rm shawnzhu/ruby-nodejs:0.12.5 node -v); [[ $node_version == "v0.12.5" ]]
