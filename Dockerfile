@@ -9,9 +9,9 @@ RUN apt-get install -y python-software-properties git curl socat wget sudo
 # Install Node.js
 RUN \
   cd /tmp && \
-  curl -O http://nodejs.org/dist/v0.10.39/node-v0.10.39.tar.gz && \
-  tar xvzf node-v0.10.39.tar.gz && \
-  rm -f node-v0.10.39.tar.gz && \
+  curl -O http://nodejs.org/dist/v0.10.40/node-v0.10.40.tar.gz && \
+  tar xvzf node-v0.10.40.tar.gz && \
+  rm -f node-v0.10.40.tar.gz && \
   cd node-v* && \
   ./configure && \
   CXX="g++ -Wno-unused-local-typedefs" make && \

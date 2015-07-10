@@ -21,7 +21,7 @@ describe "Dockerfile" do
   end
 
   describe command('node -v') do
-    its(:stdout) { should match /0\.10\.39/ }
+    its(:stdout) { should match /0\.10\.40/ }
   end
 
   describe command('npm -v') do
