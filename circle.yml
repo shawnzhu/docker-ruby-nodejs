@@ -1,0 +1,10 @@
+machine:
+  services:
+    - docker
+dependencies:
+  override:
+    - docker info
+    - docker build -t shawnzhu/ruby-nodejs:0.10.40 .
+test:
+  override:
+    - node_version=$(docker run --rm shawnzhu/ruby-nodejs:0.10.40 node -v); [[ $node_version == "v0.10.40" ]]
