@@ -6,7 +6,7 @@ Dockerfile that generates an image for people who use [Node.js](http://nodejs.or
 
 ## Build image
 
-    $ docker build -t=ruby-nodejs:0.12.7
+    $ docker build -t=ruby-nodejs:4.2.2 .
 
 ## What's included
 
@@ -17,7 +17,7 @@ Dockerfile that generates an image for people who use [Node.js](http://nodejs.or
 
 ## Pull image
 
-    $ docker pull shawnzhu/ruby-nodejs:0.12.7
+    $ docker pull shawnzhu/ruby-nodejs:4.2.2
 
 ## Testing
 
