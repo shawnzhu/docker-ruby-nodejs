@@ -1,5 +1,6 @@
 # docker-ruby-nodejs
-
+[![DockerPulls](https://img.shields.io/docker/pulls/shawnzhu/ruby-nodejs.svg)](https://registry.hub.docker.com/u/shawnzhu/ruby-nodejs/)
+[![DockerStars](https://img.shields.io/docker/stars/shawnzhu/ruby-nodejs.svg)](https://registry.hub.docker.com/u/shawnzhu/ruby-nodejs/)
 [![Circle CI](https://circleci.com/gh/shawnzhu/docker-ruby-nodejs.svg?style=shield)](https://circleci.com/gh/shawnzhu/docker-ruby-nodejs)
 
 Dockerfile that generates an image for people who use [Node.js](http://nodejs.org/) and [Ruby](https://www.ruby-lang.org/) on ubuntu.
